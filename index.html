@@ -1,0 +1,321 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nike Store</title>
+</head>
+
+<body>
+<!-- NAV BAR-->
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/bansky.jpg" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Aprovecha la oferta!</span>
+            </div>
+        </div>
+
+        <div class="navBottom">
+            <h3 class="temas">Temas:</h3>
+            <h3 class="menuItem">AMOR</h3>
+            <h3 class="menuItem">FLORES</h3>
+            <h3 class="menuItem">INVIERNO</h3>
+            <h3 class="menuItem">TRISTEZA</h3>
+            <h3 class="menuItem">ENGAÑO</h3>
+            <h3 class="menuItem">Más temas!</h3>
+        </div>
+    </nav>
+
+    <!-- SLIDER-->
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/slide1.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Tema:  Amor...</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                    <button class="buyButton">Compra!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/slide3.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Tema:  Flores...</h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button class="buyButton">Compra!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/slide4.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Tema:  Invierno...</h1>
+                <h2 class="sliderPrice">$109</h2>
+                <a href="#product">
+                    <button class="buyButton">Compra!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/slide5.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Tema:  Tristeza... </h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button class="buyButton">Compra!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/slide7.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Tema:  Engaño...</h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="buyButton">Compra!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!-- FEATURES-->   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">Envios por Correo Argentino</span>
+            <span class="featureDesc">Envio sin cargo en todo el país</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 días para devolver sin cargo</span>
+            <span class="featureDesc">No preguntamos, te devolvemos el dinero</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">Tarjetas de regalo</span>
+            <span class="featureDesc">Compra tarjetas para regalar.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">Contactanos!</span>
+            <span class="featureDesc">Queremos saber que artistas te interesan.</span>
+        </div>
+    </div>
+
+    <!-- PRODUCT -->
+    <div class="product" id="product">
+        <img src="./img/slide1.jpg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AMOR</h1>
+            <h2 class="productPrice">$199</h2>
+            <p class="productDesc">El precio corresponde a las dos versiones estandar A y
+                B del tema y en las medidas 40cm x 40cm o 70cm x 70cm. Contáctanos si quieres una medida diferente.
+            </p>
+            <div class="colors">
+                <div class="color">A</div>
+                <div class="color">B</div>
+            </div>
+            <div class="sizes">
+                <div class="size">40x40</div>
+                <div class="size">60x60</div>               
+            </div>
+            <button class="productButton">Comprar!</button>
+        </div>
+
+<!--1.00-->
+        <div class="payment">
+            <h1 class="payTitle">Información personal</h1>
+            <label>Nombre</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Telefono</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Dirección</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Tarjetas</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <h1>Aqui tienes otras obras de Banksy</h1>
+    </div>
+
+<!-- 1.15 -->
+    <div class="gallery">
+        <!--h1 class="payTitle">Other themes!</h1-->
+        <div class="galleryItem">
+            <h1 class="galleryTitle">No espíes!</h1>
+            <img src="./img/slide2.jpg" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/slide6.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Bananas!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Alto!</h1>
+            <img src="./img/slide8.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="gallery">
+        <!--h1 class="payTitle">Other themes!</h1-->
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Bésame!</h1>
+            <img src="./img/slide9.jpg" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/slide10.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Cuídame!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Ojo!</h1>
+            <img src="./img/slide11.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+
+<div class="gallery">
+    <div class="galleryItem">
+        <img src="./img/slide1w.jpg"
+            alt="" class="galleryImg">
+    </div>
+    <div class="galleryItem">
+        <h1 class="nsTitleSm">¿Te gusta Warhol?</h1>
+        <h1 class="nsTitleSm">Mira estas obras</h1>
+        <!--h1 class="nsTitleSm">¿Quieres ver otros?</h1-->
+        <a href="#nav">
+            <button class="nsButton">Quieres ver más?</button>
+        </a>
+    </div>
+    <div class="galleryItem">
+        <img src="./img/slide11w.jpg"
+            alt="" class="galleryImg">
+    </div>
+</div>
+
+    <div class="gallery">
+            <!--h1 class="payTitle">Other themes!</h1-->
+            <div class="galleryItem">
+                <h1 class="galleryTitle">Marilyn!</h1>
+                <img src="./img/slide2w.jpg" alt="" class="galleryImg">
+            </div>
+            <div class="galleryItem">
+                <img src="./img/slide3w.jpg"
+                    alt="" class="galleryImg">
+                <h1 class="galleryTitle">Lennon!</h1>
+            </div>
+            <div class="galleryItem">
+                <h1 class="galleryTitle">Food!</h1>
+                <img src="./img/slide12w.jpg"
+                    alt="" class="galleryImg">
+            </div>
+        </div>  
+    </div>
+
+<!-- 1.17 -->      
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="./img/roy.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">Prefieres otros artistas?</h3>
+            <!--h1 class="nsTitle">Te gusta Warhool?</h1-->
+            <h3 class="nsTitleSm">¿Quieres ver nuestras colecciones?</h3>
+            <a href="#nav">
+                <button class="nsButton">Contáctanos!</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="./img/kooning.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+
+<!-- 1.20 - FOOTER-->
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Sobre nosotros</h1>
+                <ul class="fList">
+                    <li class="fListItem">Compañía</li>
+                    <li class="fListItem">Contactos</li>
+                    <li class="fListItem">Empleos</li>
+                    <li class="fListItem">Sucursales</li>
+                    <li class="fListItem">Agentes</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Soporte</li>
+                    <li class="fListItem">Reembolsos</li>
+                    <li class="fListItem">Freguntas</li>
+                    <li class="fListItem">Comentarios</li>
+                    <li class="fListItem">Historias</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Temas</h1>
+                <ul class="fList">
+                    <li class="fListItem">Amor</li>
+                    <li class="fListItem">Flores</li>
+                    <li class="fListItem">Invierno</li>
+                    <li class="fListItem">Tristeza</li>
+                    <li class="fListItem">Engaño</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscripciones</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Subscríbete!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Síguenos en:</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@ Todos los derechos reservados. 2022.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
